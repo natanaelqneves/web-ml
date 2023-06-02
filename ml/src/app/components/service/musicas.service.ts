@@ -8,7 +8,8 @@ import { Musica } from 'src/app/modelo/musica.modelo';
 })
 export class MusicasService {
 
-  url = "http://localhost:3001/musicas"
+  //url = "http://localhost:3001/musicas"
+  url = "http://localhost:8080/musica"
 
   httpOptions = {
     headers: new HttpHeaders({
